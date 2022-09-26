@@ -10,7 +10,7 @@ public class Fabrica {
 		} else if (tipo == "AGranel") {
 			return new ChocolateAGranel(preco, peso);
 		}
-		return null; // test
+		return null;
 		
 	}
 	
